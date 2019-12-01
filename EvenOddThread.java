@@ -7,7 +7,7 @@ class EvenThread implements Runnable {
 	private Object lock;
 	private AtomicBoolean flag;
 	private int i = 2;
-
+	/** Constructor to initilize EventThread*/
 	public EvenThread(Object lock, AtomicBoolean flag) {
 		super();
 		this.lock = lock;

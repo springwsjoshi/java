@@ -10,6 +10,7 @@ class ReaderThread implements Runnable {
 	AtomicInteger readerCount, writerCount;
 	SharedData sharedData;
 
+/** Constuctor to initilize RederThread*/
 	public ReaderThread(Lock readerLock, Lock writerLock, AtomicInteger readerCount, AtomicInteger writerCount,
 			SharedData sharedData) {
 		super();
